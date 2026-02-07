@@ -58,6 +58,13 @@ C:\xampp\mysql\bin\mysql -u root -p < database.sql
 http://localhost/car-leasing/public
 ```
 
+### رفع خطای autoload (vendor)
+اگر خطای `vendor/autoload.php` دریافت کردید:
+```cmd
+cd C:\xampp\htdocs\car-leasing
+composer install
+```
+
 ## 3) ساختار پروژه (MVC استاندارد)
 ```
 /app
